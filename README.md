@@ -67,8 +67,8 @@ Fullstack QA с **5+ годами опыта**. Строю автоматиза�
 ## 📊 GitHub статистика
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mirtalll&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;locale=ru&amp;rank_icon=github" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mirtalll&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;locale=ru&amp;langs_count=8" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mirtalll&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;locale=ru&amp;rank_icon=github&amp;v=3" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mirtalll&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;locale=ru&amp;langs_count=8&amp;v=3" alt="Top Languages" />
 </div>
 
 <div align="center">
@@ -77,11 +77,6 @@ Fullstack QA с **5+ годами опыта**. Строю автоматиза�
 
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mirtalll&amp;theme=tokyonight" alt="Profile Details" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mirtalll&amp;theme=tokyonight" alt="Repos per Language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mirtalll&amp;theme=tokyonight" alt="Most Commit Language" />
 </div>
 
 ---
