@@ -64,44 +64,6 @@ Fullstack QA с **5+ годами опыта**. Строю автоматиза�
 
 ---
 
-## 📊 GitHub статистика
-
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/0-profile-details.svg" alt="Profile Details" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/1-repos-per-language.svg" alt="Repos per Language" />
-  <img width="49%" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/2-most-commit-language.svg" alt="Most Commit Language" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/3-stats.svg" alt="GitHub Stats" />
-  <img width="49%" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/4-productive-time.svg" alt="Productive Time" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/streak.svg" alt="GitHub Streak" />
-</div>
-
----
-
-## 📈 Активность
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/activity-graph.svg" alt="Activity Graph" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/github-snake.svg" />
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Mirtalll/Mirtalll/output/github-snake.svg" />
-  </picture>
-</div>
-
----
-
 ## 💡 Мой подход
 
 - Сначала риски и требования — потом тесты
@@ -124,7 +86,4 @@ Fullstack QA с **5+ годами опыта**. Строю автоматиза�
 
   <a href="https://t.me/MirtlPLQA"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%B2%20Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Написать в Telegram" /></a>
   <a href="mailto:danu.qaam@gmail.com"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Написать на email" /></a>
-  <br/><br/>
-
-  <img src="https://komarev.com/ghpvc/?username=Mirtalll&amp;color=0e75b6&amp;style=for-the-badge" alt="Profile views" />
 </div>

@@ -10,9 +10,8 @@
 | `avatar-lightning.png` | Чистый аватар с молнией (500×500) — рекомендую |
 | `avatar-500.png` | Аватар из исходной молнии `~/.face` (500×500, мягкий) |
 | `avatar.png` | Круглая версия для README |
-| `README.md` | README профиля со всеми виджетами |
+| `README.md` | README профиля |
 | `scripts/make_assets.py` | Генерация аватара и баннера из исходника |
-| `.github/workflows/profile-assets.yml` | Автообновление змейки и графика активности |
 
 ---
 
@@ -43,48 +42,26 @@ Bio — 149 символов, лимит GitHub — 160.
 
 ---
 
-## 3. README и виджеты
+## 3. README
 
 В README уже добавлено:
 
-- баннер и анимированный заголовок (Typing SVG)
+- баннер
+- анимированный заголовок (Typing SVG)
 - контакты и бейджи стека
 - блок «Обо мне» и таблица результатов
-- GitHub Stats, Top Languages, Streak и Summary Cards
-- график активности и змейка
-- счётчик просмотров профиля
+- стек и таблица задач
+- блок «Мой подход» и «Сейчас»
+- контактные кнопки
 
-Проверить работу Actions: https://github.com/Mirtalll/Mirtalll/actions
-
-Первый запуск происходит автоматически при пуше в `main`. Дальше — по расписанию раз в сутки. Результаты складываются в ветку `output`, README ссылается на неё через `raw.githubusercontent.com`. Поэтому статистика не зависит от внешних сервисов, которые могут быть недоступны.
-
-Что генерируется в `output`:
-
-| Файл | Виджет |
-|:--|:--|
-| `0-profile-details.svg` | профиль и график вклада |
-| `1-repos-per-language.svg` | языки по репозиториям |
-| `2-most-commit-language.svg` | языки по коммитам |
-| `3-stats.svg` | звёзды, коммиты, PR, issues |
-| `4-productive-time.svg` | активность по часам |
-| `streak.svg` | серия вкладов |
-| `activity-graph.svg` | график активности |
-| `github-snake.svg` / `github-snake-dark.svg` | змейка |
-
-### Почему не Trophy и не внешний Activity Graph
-
-Сервисы `github-profile-trophy.vercel.app` и `github-readme-activity-graph.vercel.app` из статьи сейчас отдают `402 DEPLOYMENT_DISABLED`. Поэтому график активности генерируется своим GitHub Action, а вместо трофеев используются Summary Cards — они работают стабильно.
-
-Если захотите трофеи, есть self-hosted вариант: [soulteary/github-profile-trophy-action](https://github.com/soulteary/github-profile-trophy-action). Для него нужен отдельный PAT в секрете `PROFILE_STATS_TOKEN`.
+Блоки статистики и активности убраны.
 
 ---
 
 ## 4. Что ещё можно улучшить
 
 - **Закрепить репозитории:** Profile → **Customize your pins** — выбрать 4–6 лучших проектов.
-- **Приватные контрибуции:** Profile → **Contribution settings** → включить **Private contributions**, чтобы активность была видна.
-- **Публичное портфолио:** сейчас на GitHub один публичный репозиторий — сам профиль. Когда опубликуете 2–3 проекта (QA-фреймворк, API-тесты, pet-проект), карточки статистики и Top Languages станут содержательнее. Можно добавить extra pins через `github-readme-stats`.
-- **Metrics:** если нужна более подробная инфографика, можно добавить [lowlighter/metrics](https://github.com/lowlighter/metrics) через GitHub Actions.
+- **Публичное портфолио:** когда появятся 2–3 публичных проекта (QA-фреймворк, API-тесты, pet-проект), их можно добавить в README и закрепить.
 - **Blog post workflow:** если появится блог или RSS, можно автоматически выводить последние посты через [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow).
 
 ---
