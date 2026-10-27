@@ -87,3 +87,5 @@ Fullstack QA с **5+ годами опыта**. Строю автоматиза�
   <a href="https://t.me/MirtlPLQA"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%B2%20Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Написать в Telegram" /></a>
   <a href="mailto:danu.qaam@gmail.com"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Написать на email" /></a>
 </div>
+
+<!-- refreshed: 2026-10-27T14:12:35Z -->
