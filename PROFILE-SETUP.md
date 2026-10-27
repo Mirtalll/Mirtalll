@@ -50,14 +50,26 @@ Bio — 149 символов, лимит GitHub — 160.
 - баннер и анимированный заголовок (Typing SVG)
 - контакты и бейджи стека
 - блок «Обо мне» и таблица результатов
-- GitHub Stats, Top Languages и Streak
-- профильные карточки Summary Cards (4 шт.)
-- график активности и змейка (генерируются GitHub Actions)
+- GitHub Stats, Top Languages, Streak и Summary Cards
+- график активности и змейка
 - счётчик просмотров профиля
 
 Проверить работу Actions: https://github.com/Mirtalll/Mirtalll/actions
 
-Первый запуск происходит автоматически при пуше в `main`. Дальше — по расписанию раз в сутки. Результаты складываются в ветку `output`, README ссылается на неё через `raw.githubusercontent.com`.
+Первый запуск происходит автоматически при пуше в `main`. Дальше — по расписанию раз в сутки. Результаты складываются в ветку `output`, README ссылается на неё через `raw.githubusercontent.com`. Поэтому статистика не зависит от внешних сервисов, которые могут быть недоступны.
+
+Что генерируется в `output`:
+
+| Файл | Виджет |
+|:--|:--|
+| `0-profile-details.svg` | профиль и график вклада |
+| `1-repos-per-language.svg` | языки по репозиториям |
+| `2-most-commit-language.svg` | языки по коммитам |
+| `3-stats.svg` | звёзды, коммиты, PR, issues |
+| `4-productive-time.svg` | активность по часам |
+| `streak.svg` | серия вкладов |
+| `activity-graph.svg` | график активности |
+| `github-snake.svg` / `github-snake-dark.svg` | змейка |
 
 ### Почему не Trophy и не внешний Activity Graph
 
