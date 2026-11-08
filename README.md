@@ -11,7 +11,7 @@
   <a href="mailto:danu.qaam@gmail.com"><img src="https://img.shields.io/badge/Email-danu.qaam@gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Moscow-Russia-2E8B57?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Moscow" />
   <br/>
-  <a href="https://aqasmirmain.github.io/qa-presentation/presentation.html"><img src="https://img.shields.io/badge/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F-0A0C0F?style=for-the-badge&amp;logo=githubpages&amp;logoColor=CDE95F" alt="Презентация" /></a>
+  <a href="https://mirtalll.github.io/qa-presentation/presentation.html"><img src="https://img.shields.io/badge/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F-0A0C0F?style=for-the-badge&amp;logo=githubpages&amp;logoColor=CDE95F" alt="Презентация" /></a>
 </div>
 
 ---
@@ -90,7 +90,7 @@ Senior Automation QA / Fullstack QA с опытом **5 лет 9 месяцев*
 ## 📦 Открытый код
 
 - **[pw-start-automation](https://github.com/Mirtalll/pw-start-automation)** — Playwright + TypeScript: архитектура Page → Fragment → Component, 19 Allure-матчеров, API-моки, 7 ESLint-правил, CI на GitHub Actions.
-- **[Презентация](https://aqasmirmain.github.io/qa-presentation/presentation.html)** — мини-дек: опыт, стек, подход и контакты.
+- **[Презентация](https://mirtalll.github.io/qa-presentation/presentation.html)** — мини-дек: опыт, стек, подход и контакты.
 
 ---
 
@@ -110,4 +110,4 @@ Senior Automation QA / Fullstack QA с опытом **5 лет 9 месяцев*
   <a href="mailto:danu.qaam@gmail.com"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Написать на email" /></a>
 </div>
 
-<!-- refreshed: 2026-11-08T23:20:00Z -->
+<!-- refreshed: 2026-11-08T23:45:00Z -->

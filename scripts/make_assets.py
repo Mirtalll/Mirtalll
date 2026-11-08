@@ -69,22 +69,30 @@ def make_banner(avatar: Image.Image) -> None:
 
     font_bold = load_font(
         ["/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf",
-         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+         r"C:\Windows\Fonts\NotoSans-Bold.ttf",
+         r"C:\Windows\Fonts\segoeuib.ttf"],
         62 * scale,
     )
     font_role = load_font(
         ["/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf",
-         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+         r"C:\Windows\Fonts\NotoSans-Bold.ttf",
+         r"C:\Windows\Fonts\segoeuib.ttf"],
         27 * scale,
     )
     font_regular = load_font(
         ["/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
-         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+         r"C:\Windows\Fonts\NotoSans-Regular.ttf",
+         r"C:\Windows\Fonts\segoeui.ttf"],
         20 * scale,
     )
     font_site = load_font(
         ["/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
-         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+         r"C:\Windows\Fonts\NotoSans-Regular.ttf",
+         r"C:\Windows\Fonts\segoeui.ttf"],
         17 * scale,
     )
 
@@ -92,13 +100,13 @@ def make_banner(avatar: Image.Image) -> None:
     draw.text((x0, 92 * scale), "ДАНИИЛ СМИРНОВ", font=font_bold, fill=(245, 250, 255))
     draw.text(
         (x0, 190 * scale),
-        "Fullstack QA  ·  Senior Automation QA",
+        "Senior Automation QA  ·  Fullstack QA",
         font=font_role,
         fill=(127, 220, 255),
     )
     draw.text(
         (x0, 240 * scale),
-        "UI  ·  API  ·  БД  ·  CI/CD  ·  4000+ автотестов в проде",
+        "UI  ·  API  ·  БД  ·  CI/CD  ·  10 000+ автотестов  ·  2 отдела с нуля",
         font=font_regular,
         fill=(160, 176, 198),
     )
