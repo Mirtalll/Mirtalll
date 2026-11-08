@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the GitHub profile avatar and banner from the lightning artwork."""
+"""Generate the GitHub profile avatar and banner."""
 
 from pathlib import Path
 import random
@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 ROOT = Path(__file__).resolve().parent.parent
 AVATAR_SRC = ROOT / "avatar-lightning.png"
 AVATAR_ROUND = ROOT / "avatar.png"
+QA_SRC = ROOT / "avatar-qa.png"
 BANNER = ROOT / "banner.png"
 
 
@@ -26,6 +27,14 @@ def make_round_avatar() -> Image.Image:
     avatar.putalpha(mask)
     avatar.save(AVATAR_ROUND, optimize=True)
     return avatar
+
+
+def round_image(path: Path) -> Image.Image:
+    img = Image.open(path).convert("RGBA")
+    mask = Image.new("L", img.size, 0)
+    ImageDraw.Draw(mask).ellipse([0, 0, img.width - 1, img.height - 1], fill=255)
+    img.putalpha(mask)
+    return img
 
 
 def make_banner(avatar: Image.Image) -> None:
@@ -145,5 +154,6 @@ def make_banner(avatar: Image.Image) -> None:
 
 
 if __name__ == "__main__":
-    make_banner(make_round_avatar())
+    make_round_avatar()
+    make_banner(round_image(QA_SRC))
     print(f"Generated {AVATAR_ROUND.name} and {BANNER.name}")
