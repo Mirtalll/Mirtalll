@@ -89,7 +89,6 @@ Senior Automation QA / Fullstack QA с опытом **5 лет 9 месяцев*
 
 ## 📦 Открытый код
 
-- **[pw-start-automation](https://github.com/Mirtalll/pw-start-automation)** — Playwright + TypeScript: архитектура Page → Fragment → Component, 19 Allure-матчеров, API-моки, 7 ESLint-правил, CI на GitHub Actions.
 - **[Презентация](https://mirtalll.github.io/qa-presentation/presentation.html)** — мини-дек: опыт, стек, подход и контакты.
 
 ---
